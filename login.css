@@ -1,0 +1,72 @@
+body{
+	background: url('doodle2.jpg');
+}
+
+.loginDiv{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 40%;
+  height: 350px;
+  background-color: #343d4d; //#53ab8e;
+  font-family: monospace;
+  text-align: center;
+  //border-radius: 50px 0px 0px 50px;
+  border-radius: 25px 0px;
+  color: #b2ffe6;
+  border: 4px solid #b2ffe6;
+  opacity: .9;
+  box-shadow: -12px 6px 22px 0px #3d6287;
+}
+
+.HeadingTxt{
+	//border-right: 4px solid #b2ffe6;
+	//border-left: 4px solid #b2ffe6;
+	border: 4px solid #b2ffe6;
+	border-radius: 0px 25px;
+    background: #3e5d81; //#428a76;
+    width: 100%;
+    padding: 6%;
+    font-size: 25pt;
+}
+
+.loginContent{
+	margin-top: 50px;
+	font-size: 20pt;
+}
+
+.textBox{
+	font-size: 15pt;
+    font-family: monospace;
+    margin-bottom: 10px;
+    color: #3d6287;
+}
+
+.btns{
+	background: #fff;
+    border: none;
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 15pt;
+    font-family: calibri;
+    //opacity: .8;
+    //border-radius: 7px;
+	transition: all .7s;
+}
+
+.btns:hover{
+	background: #3e5d81; //#438b76;
+	color: #fff;
+	cursor: pointer;
+}
+
+.btnsEven{
+	border-radius: 15px 0px 15px 0px;
+}
+
+.btnsOdd{
+	border-radius: 0px 15px 0px 15px;
+}
