@@ -3,22 +3,17 @@
 <head>
 	<title>Login</title>
 	<script type="text/javascript" src="login.js"></script>
-	<link rel="stylesheet" type="text/css" href="login.css">
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
 </head>
 <body>
-<div class="loginDiv">
-		<label class="HeadingTxt">Login</label><br/><br/>
-		<div class="loginContent">
-			<label for="username">UserName:</label>
-  			<input class="textBox" id="username" type="text" name="username" autofocus><br>
-  			<label for="password">PassWord:</label>
-  			<input class="textBox" id="password" type="password" name="password"><br>
-  			<input type="button" name="" value="Login" class="btns btnsEven" onclick="moveToSpecificPage()">
-  			<input type="button" name="" value="Reset" class="btns btnsOdd">
-  		</div>
-</div>
-
+ <div>
+  <label for="username">UserName: </label>
+  <input id="username" type="text" name="username" autofocus><br>
+  <label for="password">PassWord: </label>
+  <input id="password" type="password" name="password"><br>
+  <input type="button" name="" value="Login" style="margin-left: 11%" onclick="moveToSpecificPage()">
+  <input type="button" name="" value="Reset">
+ </div>
 
 </body>
 </html>
