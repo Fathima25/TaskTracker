@@ -1,3 +1,7 @@
+body{
+	background: url('doodle2.jpg');
+}
+
 .popup {
     position: relative;
     display: inline-block;
@@ -52,4 +56,71 @@
 @keyframes fadeIn {
     from {opacity: 0;}
     to {opacity:1 ;}
+}
+
+.btns{
+	background: #fff;
+    border: none;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 15pt;
+    font-family: calibri;
+    //opacity: .8;
+	transition: all .7s;
+}
+
+.btnsEven{
+	border-radius: 15px 0px 15px 0px;
+}
+
+.btnsOdd{
+	border-radius: 0px 15px 0px 15px;
+}
+
+.btns:hover{
+	background: #3e5d81; //#438b76;
+	color: #fff;
+	cursor: pointer;
+}
+
+.tableContainer{
+	text-align: center;
+	width: 99%;
+	margin-top: 2%;
+	border-collapse: collapse;
+    font-family: monospace;
+    font-size: 14pt;
+    background: #fff;
+    opacity: 0.9;
+    border-color: #ddd;
+}
+
+.tableContainer th{
+	background: #343d4d;
+    color: #fff;
+}
+
+.tableContainer tr:nth-child(even){background-color: #f2f2f2;}
+
+.tableContainer tr:hover {background-color: #ddd;}
+
+#adminChart{
+	background: #57a5ec;
+    padding: 1%;
+    border: 2px solid #7fe9fd;
+    box-shadow: -11px 11px 16px #4f9ede;
+    width: max-content;
+}
+
+select{
+	font-family: monospace;
+	font-size: 12pt;
+	height: 30px;
+    font-weight: bold;
+}
+
+.lblTxt{
+	font-family: monospace;
+    font-size: 14pt;
+    color: #fff;
 }
